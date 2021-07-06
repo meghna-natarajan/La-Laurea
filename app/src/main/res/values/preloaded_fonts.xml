@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allan</item>
+        <item>@font/bad_script</item>
+        <item>@font/fruktur</item>
+        <item>@font/monsieur_la_doulaise</item>
+        <item>@font/seaweed_script</item>
+        <item>@font/sofia</item>
+        <item>@font/wendy_one</item>
+    </array>
+</resources>

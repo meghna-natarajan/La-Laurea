@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dpm">
+
+<!--    <TextView-->
+<!--        android:layout_width="237dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="95dp"-->
+<!--        android:layout_marginTop="170dp"-->
+<!--        android:text="Leave a message for your friends here!"-->
+<!--        android:textColor="#c0c0c0"-->
+<!--        android:textSize="25sp" />-->
+
+    <EditText
+        android:id="@+id/note"
+        android:textSize="30sp"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:textColor="#c0c0c0"
+        android:textStyle="bold|italic"
+        android:theme="@style/myEditTextStyle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="cursive"
+        android:text="The message you left: "
+        android:textColor="#c0c0c0"
+        android:textSize="33sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/noteLeft"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textColor="#c0c0c0"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="160dp"
+        android:text="Send" />
+
+    <TextView
+        android:id="@+id/noteWarning"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:text="WARNING : Only the most recent message will be considered!"
+        android:textColor="#FA2A1B"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

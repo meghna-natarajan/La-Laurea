@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "431056347166",
+    "firebase_url": "https://grad-day.firebaseio.com",
+    "project_id": "grad-day",
+    "storage_bucket": "grad-day.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431056347166:android:fa56c010ad037d770d8e0f",
+        "android_client_info": {
+          "package_name": "com.example.gradday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431056347166-a6jutuq7s1s9p8l9s90sk1st99fvu550.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoABjGfbOSszgYWqsOwi9xCBNovpqs86A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431056347166-a6jutuq7s1s9p8l9s90sk1st99fvu550.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/down">
+<!--    tools:context="com.example.gradday.MainActivity"-->
+
+    <TextView
+        android:textColor="#fbbd02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Who's attending?"
+        android:textSize="35sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_marginLeft="30dp">
+
+        <RadioButton
+
+            android:textColor="#c0c0c0"
+            android:id="@+id/radio_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I'm attending"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:checked="true"/>
+
+<!--        <RadioButton-->
+<!--            android:textSize="20sp"-->
+
+<!--            android:textStyle="bold|italic"-->
+<!--            android:textColor="#c0c0c0"-->
+<!--            android:id="@+id/radio_two"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Someone on my behalf is attending" />-->
+<!--&lt;!&ndash;        android:onClick="checkButton"&ndash;&gt;-->
+
+        <RadioButton
+            android:textSize="20sp"
+
+            android:textStyle="bold|italic"
+            android:textColor="#c0c0c0"
+            android:id="@+id/radio_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No one will be attending" />
+<!--        android:onClick="checkButton"-->
+
+    </RadioGroup>
+
+<!--    <TextView-->
+
+<!--        android:fontFamily="cursive"-->
+<!--        android:textStyle="bold|italic"-->
+<!--        android:textColor="#fbbd02"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="27dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:text="Select the number of seats required: "-->
+<!--        android:textSize="25sp" />-->
+
+<!--    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton-->
+<!--        android:id="@+id/seat"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        app:backGroundColor="@android:color/holo_orange_light"-->
+<!--        app:finalNumber="10"-->
+<!--        app:initialNumber="0" />-->
+
+    <TextView
+        android:textColor="#fbbd02"
+        android:id="@+id/text_view_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="30dp"
+        android:text="Your selection: "
+        android:textSize="30sp"
+
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:textColor="#c0c0c0"
+        android:id="@+id/rsvpop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+
+<!--    <TextView-->
+<!--        android:textColor="#c0c0c0"-->
+<!--        android:id="@+id/seatsop"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:ems="10"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold|italic"/>-->
+
+    <TextView
+        android:id="@+id/noteWarning"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:text="WARNING : Only the most recent selection will be considered!"
+        android:textColor="#FA2A1B"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:text="Confirm" />
+
+
+
+</LinearLayout>

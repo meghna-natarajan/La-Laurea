@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home1">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fruktur"
+        android:text="La Laurea '20"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#d3ab32"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="50dp"
+        android:alpha="0.8"
+        android:background="#C0C0C0"
+        android:fontFamily="cursive"
+        android:text="Agenda"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="40dp"
+        android:alpha="0.8"
+        android:background="#C0C0C0"
+        android:fontFamily="cursive"
+        android:text="RSVP"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="40dp"
+        android:alpha="0.8"
+        android:background="#C0C0C0"
+        android:fontFamily="cursive"
+        android:text="Leave a Message"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/einvite"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="40dp"
+        android:alpha="0.8"
+        android:background="#C0C0C0"
+        android:fontFamily="cursive"
+        android:text="e-Invite"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="40dp"
+        android:alpha="0.8"
+        android:background="#C0C0C0"
+        android:fontFamily="cursive"
+        android:text="Sign Out"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+</LinearLayout>
